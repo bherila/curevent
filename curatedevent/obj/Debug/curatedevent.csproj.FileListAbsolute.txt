@@ -35,4 +35,7 @@ c:\users\ben\documents\visual studio 2013\Projects\curatedevent\curatedevent\bin
 c:\users\ben\documents\visual studio 2013\Projects\curatedevent\curatedevent\obj\Debug\curatedevent.csprojResolveAssemblyReference.cache
 c:\users\ben\documents\visual studio 2013\Projects\curatedevent\curatedevent\obj\Debug\curatedevent.dll
 c:\users\ben\documents\visual studio 2013\Projects\curatedevent\curatedevent\obj\Debug\curatedevent.pdb
-c:\users\ben\documents\visual studio 2013\Projects\curatedevent\curatedevent\bin\MySql.Data.dll
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\curatedevent\curatedevent\bin\x64\SQLite.Interop.dll
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\curatedevent\curatedevent\bin\x86\SQLite.Interop.dll
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\curatedevent\curatedevent\bin\System.Data.SQLite.dll
+C:\Users\Ben\Documents\Visual Studio 2013\Projects\curatedevent\curatedevent\bin\System.Data.SQLite.Linq.dll
