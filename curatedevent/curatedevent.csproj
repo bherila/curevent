@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+		<BaseIntermediateOutputPath>c:\tmp\curevent.obj</BaseIntermediateOutputPath>
+		<includesetaclproviderondestination>False</includesetaclproviderondestination>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -120,7 +122,6 @@
   <ItemGroup>
     <Content Include="Content\curated.event.png" />
     <Content Include="Content\curated.event.transparent.png" />
-    <Content Include="Content\index.htm" />
     <Content Include="Dinamico\Themes\CuratedEvent\Content\bootstrap_params.txt" />
     <Content Include="Dinamico\Themes\CuratedEvent\Content\css\bootstrap3.cerulean.min.css" />
     <Content Include="Dinamico\Themes\CuratedEvent\Content\Features.css" />
@@ -133,6 +134,7 @@
     <Content Include="Dinamico\Themes\CuratedEvent\Scripts\jquery.highlight-3.js" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Upload\splash.png" />
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -158,6 +160,9 @@
     <Content Include="Dinamico\Themes\CuratedEvent\Views\Web.config" />
     <Content Include="Dinamico\Themes\CuratedEvent\Views\Web.config.bak" />
     <Content Include="Dinamico\Themes\CuratedEvent\Views\_ViewStart.cshtml" />
+    <Content Include="Dinamico\Themes\Default\Views\ContentParts\Logotype.cshtml" />
+    <Content Include="App_Data\n2.sqlite.db" />
+    <None Include="Properties\PublishProfiles\curatedevent.com - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1005,40 +1010,6 @@
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Upload\Images\copter.jpg" />
-    <Content Include="Upload\Images\copter_cube.jpg" />
-    <Content Include="Upload\Images\copter_half.jpg" />
-    <Content Include="Upload\Images\copter_icon.jpg" />
-    <Content Include="Upload\Images\copter_original.jpg" />
-    <Content Include="Upload\Images\copter_third.jpg" />
-    <Content Include="Upload\Images\copter_thumb.jpg" />
-    <Content Include="Upload\Images\copter_wide.jpg" />
-    <Content Include="Upload\Images\fronds.jpg" />
-    <Content Include="Upload\Images\fronds_cube.jpg" />
-    <Content Include="Upload\Images\fronds_half.jpg" />
-    <Content Include="Upload\Images\fronds_icon.jpg" />
-    <Content Include="Upload\Images\fronds_original.jpg" />
-    <Content Include="Upload\Images\fronds_third.jpg" />
-    <Content Include="Upload\Images\fronds_thumb.jpg" />
-    <Content Include="Upload\Images\fronds_wide.jpg" />
-    <Content Include="Upload\Images\jetty.jpg" />
-    <Content Include="Upload\Images\jetty_cube.jpg" />
-    <Content Include="Upload\Images\jetty_half.jpg" />
-    <Content Include="Upload\Images\jetty_icon.jpg" />
-    <Content Include="Upload\Images\jetty_original.jpg" />
-    <Content Include="Upload\Images\jetty_third.jpg" />
-    <Content Include="Upload\Images\jetty_thumb.jpg" />
-    <Content Include="Upload\Images\jetty_wide.jpg" />
-    <Content Include="Upload\Images\reeds.jpg" />
-    <Content Include="Upload\Images\reeds_cube.jpg" />
-    <Content Include="Upload\Images\reeds_half.jpg" />
-    <Content Include="Upload\Images\reeds_icon.jpg" />
-    <Content Include="Upload\Images\reeds_original.jpg" />
-    <Content Include="Upload\Images\reeds_third.jpg" />
-    <Content Include="Upload\Images\reeds_thumb.jpg" />
-    <Content Include="Upload\Images\reeds_wide.jpg" />
-    <Content Include="Upload\n2logo.png" />
-    <Content Include="Upload\n2logo_white.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

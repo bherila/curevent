@@ -91,7 +91,7 @@
 		<!-- logotype -->
 		<div class="row">
 			<div class="col-sm-8">
-				@{ Html.DroppableZone("RecursiveLogo"); }
+				@{ Html.DroppableZone("RecursiveLogo").Render(); }
 				@*@Html.Tree(Content.Traverse.StartPage, parallelRoot: true, htmlAttributes: new { @class = "topnav" })*@
 				<div class="topnav">
 					@{ Html.DroppableZone("RecursiveBelowLogo").Render(); }
@@ -152,7 +152,7 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<p><small><b>The Curated Event.</b> &copy; @DateTime.Now.Year</small></p>
-				<a href="http://www.iubenda.com/privacy-policy/430301" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "http://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
+				@*<a href="http://www.iubenda.com/privacy-policy/430301" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "http://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>*@
 			</div>
 			<div class="col-sm-8">
 				@{ Html.DroppableZone("RecursiveFooter").Render(); }
