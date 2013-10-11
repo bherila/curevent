@@ -1,0 +1,41 @@
+﻿@model Dinamico.Models.StartPage
+           
+@section BodyLayoutReplacementRows 
+{
+    <!-- hero unit -->
+    <div class="row" id="heroUnit">
+        <div class="col-sm-12 centered" style="margin: 0;">
+            @{ Html.DroppableZone("Hero").Render(); }
+        </div>
+    </div>
+    <!-- /hero unit -->
+            
+            
+    <div class="row">
+            
+
+        <!-- main content-->
+        <div class="col-sm-6">
+            @Content.Render.Tokens("Text").Wrap(@<div id="content">@item.RenderContents()</div>)
+            @{ Html.DroppableZone("Body").Render(); }
+        </div>
+        <div class="col-sm-6">
+            @{ Html.DroppableZone("Gutter").Render(); }
+            @{ Html.DroppableZone("RecursiveGutter").Render(); }
+            @{ Html.DroppableZone("GutterBelow").Render(); }
+        </div>
+        <!-- /main content -->
+
+
+    </div><!-- /row -->
+
+
+    <!-- footer hero unit -->
+    <div class="row">
+        <div class="col-xs-12 centered" style="margin: 0;">
+            @{ Html.DroppableZone("BelowContent").Render(); }
+        </div>
+    </div>
+    <!-- /footer hero unit -->
+
+}

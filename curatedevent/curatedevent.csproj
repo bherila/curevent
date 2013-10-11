@@ -118,6 +118,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\curated.event.png" />
+    <Content Include="Content\curated.event.transparent.png" />
+    <Content Include="Content\index.htm" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Content\bootstrap_params.txt" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Content\css\bootstrap3.cerulean.min.css" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Content\Features.css" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Content\img\glyphicons-halflings-white.png" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Content\img\glyphicons-halflings.png" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Content\js\bootstrap.js" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Content\js\bootstrap.min.js" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Content\style.css" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Scripts\jquery.anythingslider.js" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Scripts\jquery.highlight-3.js" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="x64\SQLite.Interop.dll">
@@ -126,6 +139,25 @@
     <Content Include="x86\SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\ContentPages\Index.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\ContentPages\News.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\ContentPages\Wide.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\ContentParts\ImageFloat.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\ContentParts\ThreeColumns.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\ContentParts\TwoColumns.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Fallback\Index.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Link\Index.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Redirect\Index.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Shared\Error.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Shared\_Layout.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Shared\_RightNavShared.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Shared\_SubNavigation.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Slideshow\Index.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\StartPage\Index.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\StartPage\NotFound.cshtml" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Web.config" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\Web.config.bak" />
+    <Content Include="Dinamico\Themes\CuratedEvent\Views\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,10 @@
+﻿@model N2.Web.Slideshow
+@{ string uniqueId = Html.UniqueID("cs"); }
+<div id="@uniqueId" class="flexslider">
+	<ul class="slides">
+	@foreach (var img in Model.GetSlideshowImages()) 
+	{ 
+		<li><img src="@img.ImageHref" /></li> 
+	}
+	</ul>
+</div>
