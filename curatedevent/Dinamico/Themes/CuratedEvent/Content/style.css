@@ -1,13 +1,14 @@
 ﻿body, html
 {
-	background-color: #eee;
+	font-family: Georgia, serif;
+	background-color: #fff;
 	background-repeat: repeat-x;
 	margin: 0px;
 }
 
-h1 { font-size: 18pt; font-weight: 600; color: #004383; }
+h1 { font-size: 18pt;font-family: Georgia, serif; color: #000; }
 h1, h2, h3, h4, h5, h6 { line-height: 1em; }
-h2, h3, h4, h5, h6 { font-size: 12pt !important; margin-bottom: 0.25em !important; }
+h2, h3, h4, h5, h6 { font-family: Arial, sans-serif; font-size: 14pt !important; margin-bottom: 0.25em !important;color: #e75101; }
 p, li { margin-bottom: 0.9em; }
 
 .no-pad { padding: 0; }
